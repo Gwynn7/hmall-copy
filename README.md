@@ -1,4 +1,4 @@
-# 使用教程
+# 1. 使用教程
 ## 1.1 软件安装（课前准备）
 ### 1.1.1 安装VS Code
 教程链接：[https://zhuanlan.zhihu.com/p/698865320](https://zhuanlan.zhihu.com/p/698865320)
@@ -43,3 +43,21 @@ docker compose up -d
 
 打开浏览器，输入网址: http://localhost:18080
 ![alt text](image-8.png)
+
+# 2. 开源项目AstrBot
+链接：https://github.com/Soulter/AstrBot
+
+配置LLM教程：
+
+硅基流动获取API密钥：https://cloud.siliconflow.cn/models
+![alt text](image-10.png)
+![alt text](image-9.png)
+AstrBot配置LLM：
+![alt text](image-11.png)
+![alt text](image-13.png)
+将之前获取的API密钥和文本生成模型名称分别填入，并点击保存：
+![alt text](image-14.png)
+开启大语言模型设置：
+![alt text](image-16.png)
+接下来就可以在AstrBot中使用啦：
+![alt text](image-17.png)
