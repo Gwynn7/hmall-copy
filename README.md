@@ -47,6 +47,9 @@ docker compose up -d
 # 2. 开源项目AstrBot
 链接：https://github.com/Soulter/AstrBot
 
+
+直接按照教程Docker部署后，可以通过网址：http://localhost:6185 打开AstrBot控制面板。打开控制面板时可能会遇到问题，可以参考：https://astrbot.app/faq.html
+
 配置LLM教程：
 
 硅基流动获取API密钥：https://cloud.siliconflow.cn/models
