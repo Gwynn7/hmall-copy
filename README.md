@@ -7,6 +7,13 @@
 
 在选择默认编辑器时可以选用VSCode作为默认编辑器：
 ![v](image.png)
+
+创建一个GitHub账号，打开GitBash，输入命令配置账户：
+```shell
+git config –-global user.email “you@example.com”
+
+git config –-global user.name “Your name”
+```
 ### 1.1.3 安装Docker Desktop
 下载链接：[https://www.docker.com/get-started/](https://www.docker.com/get-started/)
 
@@ -23,7 +30,8 @@
 ```
 
 
-## 1.2 docker一键部署
+## 1.2 docker一键部署开源项目AstrBot
+AstrBot项目链接：https://github.com/Soulter/AstrBot
 ![alt text](image-3.png)
 ![alt text](image-4.png)
 ```shell
@@ -32,21 +40,12 @@ cd 放置项目的文件夹位置
 ```
 ![alt text](image-5.png)
 ```shell
-git clone https://github.com/Gwynn7/hmall-copy.git
+git clone https://github.com/Soulter/AstrBot
 
-cd hmall-copy
+cd AstrBot
 
 docker compose up -d
 ```
-![alt text](image-6.png)
-![alt text](image-7.png)
-
-打开浏览器，输入网址: http://localhost:18080
-![alt text](image-8.png)
-
-# 2. 开源项目AstrBot
-链接：https://github.com/Soulter/AstrBot
-
 
 直接按照教程Docker部署后，可以通过网址：http://localhost:6185 打开AstrBot控制面板。打开控制面板时可能会遇到问题，可以参考：https://astrbot.app/faq.html
 
